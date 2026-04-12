@@ -1,5 +1,4 @@
-FROM python:3.14-alpine3.22
-
+FROM python:3.14.4-alpine3.23
 RUN apk update && \
     apk upgrade --no-cache && \
     apk add --no-cache libev-dev build-base curl && \
